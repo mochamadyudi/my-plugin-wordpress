@@ -28,8 +28,10 @@ class Settings
     public $settings = array();
 
 
-    public static function register(){
+    public function register(){
+        add_action( 'wp_head', array($this , 'output') );
 
+        add_action( 'customize_register', array( $this, 'setup' ) );
     }
 
 }

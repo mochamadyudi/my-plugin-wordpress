@@ -3,3 +3,6 @@
 .composer-lock.json
 .package-lock.json
 
+
+/vendor
+./composer.lock

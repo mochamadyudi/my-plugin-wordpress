@@ -1,0 +1,18 @@
+{
+    "name": "myudi/emkalab",
+    "autoload": {
+        "psr-4": {
+            "Myudi\\Emkalab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mochamadyudi",
+            "email": "myudisobari12@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "yahnis-elsts/plugin-update-checker": "^4.11"
+    }
+}
