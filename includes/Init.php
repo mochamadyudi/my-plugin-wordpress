@@ -1,6 +1,8 @@
 <?php
 
-namespace Emakalab;
+namespace Emkalab;
+
+use Emkalab\Settings;
 
 
 final class Init
@@ -8,6 +10,7 @@ final class Init
 
     public static function get_services(){
         return [
+            Settings::class,
 
         ];
     }
